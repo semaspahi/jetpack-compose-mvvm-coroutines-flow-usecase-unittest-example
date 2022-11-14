@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Automauto</string>
+    <string name="cars_screen_title">Welcome to Automauto</string>
+    <string name="cars_screen_search_hint">Search</string>
+    <string name="cars_screen_clear">Clear</string>
+    <string name="cars_screen_color">Color: %s</string>
+    <string name="cars_screen_miles">Miles: %s</string>
+    <string name="cars_screen_seller">Seller: %s</string>
+    <string name="image_screen_title">Image</string>
+</resources>
