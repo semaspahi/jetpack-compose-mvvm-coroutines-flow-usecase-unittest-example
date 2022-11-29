@@ -58,7 +58,7 @@ class CarsViewModelTest {
     }
 
     @Test
-    fun getExperiments_isSuccess() = runTest{
+    fun getCars_isSuccess() = runTest{
         whenever(repository.getCars()).thenReturn(any())
         viewModel.getCars()
         getCarsUseCase().collect {
@@ -67,7 +67,7 @@ class CarsViewModelTest {
     }
 
     @Test
-    fun getExperiments_isFail() = runTest {
+    fun getCars_isFail() = runTest {
         whenever(repository.getCars()) doAnswer {
             throw IOException()
         }
